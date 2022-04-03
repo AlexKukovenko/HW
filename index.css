@@ -1,0 +1,81 @@
+h1 {
+    word-spacing: 6px;
+    text-decoration: overline;
+    padding-top: 15px;
+}
+
+.header {
+    text-align: center;
+    background-color: rgba(87, 172, 87, 0.71);
+    letter-spacing: 8px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+li:nth-child(3) {
+    text-decoration: line-through red;
+}
+
+li:nth-child(3n+2) {
+    color: darkgreen;
+    text-decoration: underline dotted darkgreen;  
+    font-weight: 100px;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 5px dotted;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    width: 400px;
+    height: 150px;
+}
+
+.green{
+    background-color: yellowgreen;
+    border: 5px dashed;
+    margin-left: 1200px;
+    padding: 10px;
+    width: 400px;
+    height: 150px;
+}
+
+.purple{
+    background-color: rgb(164, 61, 233);
+    border: 5px dashed;
+    margin-left: 300px;
+    padding: 10px;
+    width: 400px;
+    height: 150px;
+}
+
+.peach{
+    background-color: rgb(255, 117, 117);
+    border: 5px dotted;
+    margin-left: 850px;
+    padding: 10px;
+    width: 400px;
+    height: 150px;
+}
+
+div {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 29px;
+    text-align: justify;
+    text-indent: 20px;
+    text-transform: none;
+}
